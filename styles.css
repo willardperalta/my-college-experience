@@ -3,6 +3,11 @@ html {
     scroll-behavior: smooth;
 }
 
+img {
+    height: 50%;
+    width: 50%;
+}
+
 body {
     font-family: avenir;
     background: linear-gradient(95deg, rgb(43, 124, 231), pink);
@@ -23,6 +28,7 @@ body {
     border-radius: 6px;
 }
 
+
 .nav-link {
     display: block;
     padding: 2rem;
@@ -40,14 +46,17 @@ h2 {
     font-size: x-large;
 }
 
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
 #intro img {
     height: auto;
     width: 100%;
-}
-
-#full-video {
-    height: auto;
-    max-width: 100%;
 }
 
 
@@ -72,12 +81,7 @@ h2 {
     text-align: center;
 }
 
-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
 
 #intro {
     margin-top: 80px;
@@ -93,32 +97,32 @@ section {
     font-size: large;
 }
 
-#kahului {
+#year1 {
     margin-top: 0px;
     height: 100vh;
     width: 100vw;
 }
 
-#kihei {
+#year2 {
     height: 100vh;
     width: 100vw;
 }
 
-#lahaina {
+#year3 {
     height: 100vh;
     width: 100vw;
 }
 
-#kula {
+#year4 {
     height: 100vh;
     width: 100vw;
 }
 
-#hana {
+#year5 {
     height: 100vh;
     width: 100vw;
 }
-
+*/
 #main {
     background: linear-gradient(95deg, rgb(43, 124, 231), pink);
 }
