@@ -1,8 +1,4 @@
 
-html {
-    scroll-behavior: smooth;
-}
-
 #nav-bar {
     display: flex;
     justify-content: center;
@@ -24,8 +20,8 @@ html {
 }
 
 img {
-    height: 50%;
-    width: 50%;
+    height: 60%;
+    width: 70%;
 }
 
 body {
