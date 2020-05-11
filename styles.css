@@ -9,36 +9,29 @@
     height: 80px;
     background: linear-gradient(360deg, rgb(2,71,49), rgb(200,200,200));
     color: white;
-    border-bottom: pink;
     border-radius: 6px;
 }
 
 .nav-link {
     display: block;
     padding: 2rem;
+    margin: 0px 10px 0px 10px;
     color: white;
 }
 
-img {
-    height: 60%;
-    width: 70%;
+.nav-link:hover {
+    display: block;
+    padding: 2rem;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px;
 }
 
 body {
     font-family: avenir;
     background: rgb(5, 117, 82);
     color: white;
-}
-
-
-
-h1 {
-    text-align: center;
-    margin-top: 60px;
-}
-
-h2 {
-    text-align: center;
 }
 
 section {
@@ -48,6 +41,84 @@ section {
     align-items: center;
 }
 
-/*
-linear-gradient(95deg, rgb(43, 124, 231), pink)
-*/
+p {
+    margin: 90px;
+    line-height: normal;
+}
+
+#profilepic{
+    margin: 10px 60px 0px 60px;
+    width: 50vw;
+    height: 80vh;
+    border-radius: 10px;
+    border-color: none;
+}
+
+img {
+    margin: 10px 60px 0px 60px;
+    width: 40vw;
+    height: 60vh;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+}
+
+
+
+
+h1 {
+    text-align: center;
+    margin: 120px 60px 10px 60px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    margin: 20px 0px 20px 0px;
+}
+
+section p{
+    margin: 20px 90px 90px 90px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.856);
+    color: black;
+    text-align: center;
+}
+
+.two-item-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.three-item-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0px;
+}
+
+.five-item-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.five-item-wrapper a {
+    margin: 10px;
+    padding: 10px;
+    color: white;
+}
+
+.three-item-wrapper img{
+    margin: 0px;
+    width: 30vw;
+    height: 40vh;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+}
+
+
