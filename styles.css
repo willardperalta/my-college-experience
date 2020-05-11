@@ -95,6 +95,7 @@ section p{
     grid-template-columns: 1fr 1fr;
 }
 
+
 .three-item-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -121,4 +122,20 @@ section p{
     border-radius: 5px;
 }
 
+
+figcaption {
+    text-align: center;
+}
+
+figure a {
+    color: white;
+}
+
+figure {
+    text-align: center;
+}
+
+figure iframe {
+    display: inline-block;
+}
 
