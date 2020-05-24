@@ -139,3 +139,60 @@ figure iframe {
     display: inline-block;
 }
 
+
+/* Media Queries */
+
+/* Screen sizes according to Google Chrome:
+Mobile S: 320px
+Mobile M: 375px
+Mobile L: 425px
+Tablet: 768px
+*/
+
+
+/*max-width means returns the content if width is less than the specified amount*/
+@media (max-width: 426px) { 
+
+    #nav-bar {
+        display: flex; /* Row is default flex */
+        flex-wrap: wrap; /* items in flex will now wrap */
+        justify-content: center; /* contenet alignment in flex */
+        position: fixed; /* Keeps nav in same spot (relative to viewport) */
+        top: 0; /* top,left, right, bottom used to position fixed element */
+        left: 0;
+        width: 50%;
+        height: 8%;
+        background: linear-gradient(360deg, rgb(2,71,49), rgb(200,200,200));
+        color: white;
+        border-radius: 6px;
+    }
+
+    .nav-link {
+        display: block;
+        padding: 1rem;
+        margin: 0px 10px 0px 10px;
+        color: white;
+    }
+    
+    .nav-link:hover {
+        display: block;
+        padding: 1rem;
+        color: white;
+        border-style: solid;
+        border-color: white;
+        border-radius: 15px;
+    }
+
+    h1 {
+        text-align: center;
+        margin: 120 0 10 0;
+    }
+
+    #profilepic{
+        margin: 10px 60px 0px 60px;
+        width: 80vw;
+        height: 50vh;
+        border-radius: 10px;
+        border-color: none;
+    }
+}
