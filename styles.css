@@ -87,8 +87,12 @@ section p{
 }
 
 .two-item-wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    /*
     display: grid;
     grid-template-columns: 1fr 1fr;
+    */
 }
 
 .three-item-wrapper {
