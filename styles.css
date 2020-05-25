@@ -178,25 +178,10 @@ Tablet: 768px
 
     #nav-bar {
         visibility: hidden;
-        display: flex; /* Row is default flex */
-        flex-wrap: wrap; /* items in flex will now wrap */
-        justify-content: center; /* contenet alignment in flex */
-        position: fixed; /* Keeps nav in same spot (relative to viewport) */
-        top: 0; /* top,left, right, bottom used to position fixed element */
-        left: 0;
-        width: 50%;
-        height: 8%;
-        background: linear-gradient(360deg, rgb(2,71,49), rgb(200,200,200));
-        color: white;
-        border-radius: 6px;
     }
 
     .nav-link {
         visibility: hidden;
-        display: block;
-        padding: 1rem;
-        margin: 0px 10px 0px 10px;
-        color: white;
     }
     
     .nav-link:hover {
