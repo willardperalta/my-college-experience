@@ -104,8 +104,9 @@ iframe {
 }
 
 .five-item-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 .five-item-wrapper a {
@@ -220,6 +221,11 @@ Tablet: 768px
         width: 100vw;
         height: (1.7 * (100vw));
     }
+
+    #footerText {
+        margin: 0 40px;
+    }
+  
 }
 
 
