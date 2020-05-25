@@ -1,6 +1,7 @@
 
 #nav-bar {
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
     position: fixed;
     top: 0;
@@ -32,6 +33,7 @@ body {
     font-family: avenir;
     background: rgb(5, 117, 82);
     color: white;
+    text-align: center;
 }
 
 p {
@@ -56,6 +58,18 @@ img {
     border-style: solid;
     border-color: white;
     border-radius: 5px;
+}
+
+.centerSomethingContainer {
+    text-align: center;
+}
+
+.centerSomethingThing {
+    display: inline-block;
+}
+
+.instagram-media {
+    display: inline-block;
 }
 
 h1 {
@@ -87,6 +101,7 @@ iframe {
     width: 70vw;
     height: (1.7 * (100vw));
 }
+
 
 .two-item-wrapper {
     display: flex;
@@ -156,7 +171,13 @@ Tablet: 768px
 /*max-width means returns the content if width is less than the specified amount*/
 @media (max-width: 670px) { 
 
+    h1 {
+        text-align: center;
+        margin: 20px 60px 10px 60px;
+    }
+
     #nav-bar {
+        visibility: hidden;
         display: flex; /* Row is default flex */
         flex-wrap: wrap; /* items in flex will now wrap */
         justify-content: center; /* contenet alignment in flex */
@@ -171,6 +192,7 @@ Tablet: 768px
     }
 
     .nav-link {
+        visibility: hidden;
         display: block;
         padding: 1rem;
         margin: 0px 10px 0px 10px;
