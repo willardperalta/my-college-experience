@@ -34,15 +34,8 @@ body {
     color: white;
 }
 
-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 p {
-    margin: 90px;
+    margin: 70px;
     line-height: normal;
 }
 
@@ -54,17 +47,19 @@ p {
     border-color: none;
 }
 
+#profilepicContainer {
+    width: 50vw;
+    margin: 0 auto;
+}
+
 img {
     margin: 10px 60px 0px 60px;
-    width: 40vw;
-    height: 60vh;
+    width: 50vw;
+    height: 55vh;
     border-style: solid;
     border-color: white;
     border-radius: 5px;
 }
-
-
-
 
 h1 {
     text-align: center;
@@ -76,6 +71,7 @@ h2 {
 }
 
 h3 {
+    text-align: center;
     margin: 20px 0px 20px 0px;
 }
 
@@ -94,7 +90,6 @@ section p{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-
 
 .three-item-wrapper {
     display: grid;
@@ -151,7 +146,7 @@ Tablet: 768px
 
 
 /*max-width means returns the content if width is less than the specified amount*/
-@media (max-width: 426px) { 
+@media (max-width: 670px) { 
 
     #nav-bar {
         display: flex; /* Row is default flex */
@@ -186,13 +181,35 @@ Tablet: 768px
     h1 {
         text-align: center;
         margin: 120 0 10 0;
+        font-size: 2rem;
     }
 
     #profilepic{
         margin: 10px 60px 0px 60px;
-        width: 80vw;
+        width: 70vw;
         height: 50vh;
         border-radius: 10px;
         border-color: none;
+    }
+
+    img {
+        margin: 10px 60px 0px 60px;
+        width: 68vw;
+        height: 42vh;
+        border-style: solid;
+        border-color: white;
+        border-radius: 5px;
+    }
+
+    section p{
+        margin: 20px 20px 50px 20px;
+        border-style: solid;
+        border-color: black;
+        border-radius: 15px;
+        padding: 25px;
+        background-color: rgba(255, 255, 255, 0.856);
+        color: black;
+        text-align: unset;
+        line-height: 1.5;
     }
 }
