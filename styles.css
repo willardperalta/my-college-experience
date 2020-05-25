@@ -103,10 +103,14 @@ iframe {
     margin: 0px;
 }
 
+
 .five-item-wrapper {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    background-color: rgb(2,71,49);
+    margin-top: 40px;
+    padding-top: 20px;
 }
 
 .five-item-wrapper a {
@@ -225,6 +229,7 @@ Tablet: 768px
     #footerText {
         margin: 0 40px;
     }
+    
   
 }
 
