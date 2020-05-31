@@ -69,7 +69,7 @@ img {
 }
 
 .instagram-media {
-    display: inline-block;
+    margin:0 auto!important;
 }
 
 h1 {
